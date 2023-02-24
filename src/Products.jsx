@@ -15,9 +15,14 @@ function Products() {
 // Funktionen som renderar information om en specifik produkt.
 function Product(props) {
   const [showDetails, setShowDetails] = useState(false);
-  // Funktionen som ändrar showDetails-variabelns värde när användaren klickar på knappen.
+
   function handleClick() {
     setShowDetails(!showDetails);
+  }
+
+  function handleBuy() {
+    // Implementera köp-funktionalitet här
+    console.log("Köpt produkt:", props.product.name);
   }
 
   return (
@@ -28,7 +33,7 @@ function Product(props) {
         <button onClick={handleClick}>
           {showDetails ? "Dölj detaljer" : "Visa detaljer"}
         </button>
-        {/* Renderar detaljer om produkten när showDetails är true */}
+        <button onClick={handleBuy}>Lägg till Varukorg</button>
         {showDetails && (
           <div>
             <p> #{props.product.productNumber}</p>
