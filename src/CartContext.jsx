@@ -2,9 +2,9 @@ import { createContext, useState } from "react";
 
 export const CartContext = createContext({}); // Skapar en kontext för ShoppingCart.
 
-// Funktion som fungerar som en Provider för ShoppingCartkontexten.
+// Fungerar som en Provider för ShoppingCartkontexten.
 export function CartProvider({ children }) {
-  // // Statet för ShoppingCarts varor och dess kvantitet
+  // Statet för ShoppingCarts varor och dess kvantitet
   const [items, setItems] = useState([]);
 
   // Används för att lägga till en produkt i ShoppingCart.

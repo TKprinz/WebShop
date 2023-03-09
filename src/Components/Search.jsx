@@ -3,7 +3,7 @@ import Products from "./Products";
 import data from "../Rolex-list.json";
 
 function Search() {
-  // Definierar två state-variabler med useState-hook: search och products.
+  // Definierar två states med useState-hook: search och products.
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState([]);
 
@@ -24,7 +24,7 @@ function Search() {
   const handleSearch = (event) => {
     setSearch(event.target.value);
   };
-  // Rendera JSX-kod för sökfält, sökknapp och produkter baserat på sökresultaten
+  // Rendera JSX-kod för sökfält, sökknapp och produkter baserat på sökresultaten.
   return (
     <div>
       <div className="wholeSearchBar">

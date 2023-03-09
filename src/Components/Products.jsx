@@ -8,7 +8,7 @@ function Products(props) {
   // Hämtar addToShoppingCart från CartContext.
   const { addToShoppingCart } = useContext(CartContext);
 
-  // useState-hook
+  // useState-hook.
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   // Lägger till produkten i ShoppingCart.

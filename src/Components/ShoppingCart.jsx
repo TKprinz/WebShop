@@ -15,7 +15,7 @@ function ShoppingCart() {
     <div className="shopping-cart">
       <h2>Shopping Cart</h2>
 
-      {/* Använder map för att loopa genom varje Cart i ShoppingCart och renderar ut en ny Cart. */}
+      {/* Använder map för att loopa genom varje Cart i ShoppingCart och renderar ut en ny klocka. */}
       {items.map((item, index) => (
         <div className="wholeCart" key={index}>
           <div className="imageContainer">
@@ -27,18 +27,18 @@ function ShoppingCart() {
               <div className="addup">Quantity: {item.quantity} </div>
             </div>
             <div className="addUpBtn">
-              {/* "Lägg till" lägger till en Cart i ShoppingCart. */}
+              {/* "Lägg till" lägger till en klocka i ShoppingCart. */}
               <button onClick={() => addToShoppingCart(item)}>Lägg till</button>
             </div>
             <div className="addDownBtn">
-              {/* "Ta bort" tar bort en Cart från ShoppingCart. */}
+              {/* "Ta bort" tar bort en klocka från ShoppingCart. */}
               <button onClick={() => removeItem(item)}>Ta bort</button>
             </div>
           </div>
         </div>
       ))}
 
-      {/* Totalpriset för ShoppingCart visas under Cart. */}
+      {/* Totalpriset för ShoppingCart visas under produkterna. */}
       <div className="total">Total: {total} SEK</div>
     </div>
   );
