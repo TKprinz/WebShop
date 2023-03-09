@@ -1,3 +1,7 @@
+#root {
+  background-color: #3e8e41;
+}
+
 .product-container {
   width: 48%;
   margin-bottom: 20px;
@@ -163,5 +167,23 @@ html {
 
 .total {
   margin-top: 28px;
+
+  font-weight: bold;
+  font-size: larger;
+}
+
+.detail {
+  margin-top: 20px;
+}
+
+.imgFirstView {
+  margin-left: 45px;
+}
+
+.name {
+  margin-top: 40px;
+}
+
+.CartIndex {
   margin-left: 20px;
 }
