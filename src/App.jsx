@@ -1,11 +1,15 @@
 import "./App.css";
-
-import Search from "./Search";
+import Search from "./Components/Search";
+import { CartProvider } from "./CartContext";
+import ShoppingCart from "./Components/ShoppingCart";
 
 function App() {
   return (
     <div className="App">
-      <Search />
+      <CartProvider>
+        <Search />
+        <ShoppingCart />
+      </CartProvider>
     </div>
   );
 }
