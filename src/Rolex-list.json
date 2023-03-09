@@ -4,69 +4,79 @@
     "productNumber": "116610LN",
     "price": 106600,
     "description": "The Rolex Submariner Date is the ultimate diving watch, waterproof to a depth of 300 meters.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m126610ln-0001.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m126610ln-0001.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Datejust 41",
     "productNumber": "126300",
     "price": 84900,
     "description": "The Rolex Datejust 41 is a classic watch with a modern twist, featuring a date display and a stainless steel case.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m126300-0002.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m126300-0002.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Daytona",
     "productNumber": "116500LN",
     "price": 144200,
     "description": "The Rolex Daytona is the ultimate chronograph, with a tachymetric scale for measuring speed.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m116500ln-0002.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m116500ln-0002.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex GMT-Master II",
     "productNumber": "126710BLNR",
     "price": 118800,
     "description": "The Rolex GMT-Master II is the ultimate traveler's watch, with a 24-hour hand and a rotating bezel for tracking multiple time zones.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m126710blnr-0002.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m126710blnr-0002.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Yacht-Master 40",
     "productNumber": "116655",
     "price": 192500,
     "description": "The Rolex Yacht-Master 40 is the ultimate sailing watch, with a matte black ceramic bezel and a waterproof Oyster case.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m126655-0002.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m126655-0002.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Explorer II",
     "productNumber": "216570",
     "price": 94500,
     "description": "The Rolex Explorer II is the ultimate adventurer's watch, with a 24-hour hand and a fixed bezel for tracking time in extreme conditions.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m226570-0001.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m226570-0001.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Day-Date",
     "productNumber": "228238",
     "price": 442700,
     "description": "The Rolex Day-Date is the ultimate status watch, available only in precious metals and with a day and date display.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m228238-0042.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m228238-0042.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Sky-Dweller",
     "productNumber": "326934",
     "price": 290000,
     "description": "The Rolex Sky-Dweller is the ultimate pilot's watch, with a dual time zone function and an annual calendar.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m326934-0003.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m326934-0003.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Milgauss",
     "productNumber": "116400GV",
     "price": 91800,
     "description": "The Rolex Milgauss is the ultimate anti-magnetic watch, with a green sapphire crystal and a lightning bolt-shaped second hand.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m116400gv-0001.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m116400gv-0001.png?impolicy=v6-upright",
+    "quantity": 0
   },
   {
     "name": "Rolex Oyster Perpetual",
     "productNumber": "124300",
     "price": 64900,
     "description": "The Rolex Oyster Perpetual is a classic watch with a timeless design, featuring a stainless steel case and bracelet.",
-    "image": "https://content.rolex.com/dam/2022/upright-bba/m124300-0003.png?impolicy=v6-upright"
+    "image": "https://content.rolex.com/dam/2022/upright-bba/m124300-0003.png?impolicy=v6-upright",
+    "quantity": 0
   }
 ]
