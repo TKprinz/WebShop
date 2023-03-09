@@ -3,11 +3,12 @@ import Products from "./Products";
 import data from "../Rolex-list.json";
 
 function Search() {
+  // Definierar två state-variabler med useState-hook: search och products.
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState([]);
 
   function SearchObject() {
-    // Uppdatera products baserat på söksträngen search.
+    // Filterar Rolex-listan baserat på namn och beskrivning som innehåller sökordet.
     const filteredProducts = data.filter(
       (data) =>
         (data.name && data.name.toLowerCase().includes(search.toLowerCase())) ||
@@ -15,14 +16,15 @@ function Search() {
           data.description.toLowerCase().includes(search.toLowerCase()))
     );
 
+    // Uppdaterar Products Staten med filtrerade produkter.
     setProducts(filteredProducts);
   }
 
+  // Uppdaterar Search Staten när sökfältet ändras.
   const handleSearch = (event) => {
-    // Uppdatera söksträngen search med text från input-fältet.
     setSearch(event.target.value);
   };
-
+  // Rendera JSX-kod för sökfält, sökknapp och produkter baserat på sökresultaten
   return (
     <div>
       <div className="wholeSearchBar">
