@@ -28,7 +28,7 @@ function Search() {
   return (
     <div>
       <div className="wholeSearchBar">
-        <h1 className="rubrik">Rolex</h1>
+        <h1 className="rubrik">The Magic Rolex</h1>
         <input
           className="searchBar"
           type="text"

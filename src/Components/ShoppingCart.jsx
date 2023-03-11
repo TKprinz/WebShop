@@ -19,7 +19,7 @@ function ShoppingCart() {
       {items.map((item, index) => (
         <div className="wholeCart" key={index}>
           <div className="imageContainer">
-            <img src={item.image} alt="rolexPic" />
+            <img className="CartPicture" src={item.image} alt="rolexPic" />
             <div className="CartIndex">
               <div className="name">{item.name}</div>
               <div className="productNumber">#{item.productNumber}</div>
