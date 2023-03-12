@@ -35,9 +35,11 @@ function Search() {
           value={search}
           onChange={handleSearch}
         />
-        <button className="searchBtn" onClick={SearchObject}>
-          Sök
-        </button>
+        <div className="searchBtnWhole">
+          <button className="searchBtn" onClick={SearchObject}>
+            Sök
+          </button>
+        </div>
       </div>
       <div className="products">
         <Products product={products} />
